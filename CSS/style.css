@@ -83,6 +83,7 @@ main{
 
 .bottom-main{
     display: flex;
+    padding-bottom: 50px;
 }
 
 .bottom-main span{
@@ -138,6 +139,43 @@ main{
 
 footer{
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.left-footer{
+    width: 15%;
+    display: flex;
+    background-color: tomato;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-footer{
+    width: 55%;
+    display: flex;
+    background-color: turquoise;
+}
+
+.right-footer{
+    width: 10%;
+    background-color: violet;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box i{
+    font-size: 30px;
+}
+
+.footer-box span{
+    font-size: 15px;
 }
 
 /* debug */
