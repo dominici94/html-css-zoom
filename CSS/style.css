@@ -1,12 +1,20 @@
+/* commons */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
 header{
     height: 25px;
-    background-color: rgb(224, 224, 224);
+    background: linear-gradient(rgb(240,240,240), rgb(180,180,180)); 
     display: flex;
 }
 
@@ -45,4 +53,49 @@ header{
 .right-header-container span{
     background-color: white;
     padding: 2px 4px;
+}
+
+/* main */
+
+main{
+    height: calc(100vh - 125px);
+}
+
+.top-main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box{
+    background: linear-gradient(#3d3d3d, #1f1f1f);
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.top-main .box span{
+    padding-left: 10px;
+}
+
+
+/* footer */
+
+footer{
+    height: 100px;
+}
+
+/* debug */
+
+.debug main{
+    height: 500px;
+    background-color: royalblue;
+}
+
+
+
+.debug footer{
+    background-color: coral;
 }
