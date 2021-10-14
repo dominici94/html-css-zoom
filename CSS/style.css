@@ -80,6 +80,35 @@ main{
     padding-left: 10px;
 }
 
+.bottom-main{
+    display: flex;
+}
+
+.bottom-main span{
+    font-size: 12px;
+}
+
+.bottom-main .arrow{
+    color: grey;
+    font-size: 60px;
+}
+
+.left-btm-main{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-btm-main{
+    width: 80%;
+}
+
+.right-btm-main{
+    width: 10%;
+}
+
 
 /* footer */
 
@@ -92,6 +121,21 @@ footer{
 .debug main{
     height: 500px;
     background-color: royalblue;
+}
+
+.debug .left-btm-main{
+    background-color: cyan;
+    height: 250px;
+}
+
+.debug .center-btm-main{
+    background-color: darkblue;
+    height: 200px;
+}
+
+.debug .right-btm-main{
+    background-color: darkcyan;
+    height: 300px;
 }
 
 .debug footer{
