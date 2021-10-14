@@ -58,7 +58,8 @@ header{
 /* main */
 
 main{
-    height: calc(100vh - 125px);
+    /* height: calc(100vh - 125px); */
+    background-color: black;
 }
 
 .top-main{
@@ -86,14 +87,23 @@ main{
 
 .bottom-main span{
     font-size: 12px;
+    color: white;
 }
 
 .bottom-main .arrow{
-    color: grey;
     font-size: 60px;
 }
 
-.left-btm-main{
+.left-btm-main .arrow{
+    color: grey;
+}
+
+.right-btm-main .arrow{
+    color: rgb(46, 186, 255);
+}
+
+.left-btm-main,
+.right-btm-main{
     width: 5%;
     display: flex;
     flex-direction: column;
@@ -102,13 +112,27 @@ main{
 }
 
 .center-btm-main{
-    width: 80%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.right-btm-main{
-    width: 10%;
+.box{
+    width: 18%;
+    margin: 1%;
+    height: 150px;
+    position: relative;
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/27/09/59/male-5099074_960_720.jpg');
+    background-size: cover;
 }
 
+.box .user-name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
 
 /* footer */
 
@@ -118,24 +142,28 @@ footer{
 
 /* debug */
 
-.debug main{
+/* .debug main{
     height: 500px;
     background-color: royalblue;
-}
+} */
 
-.debug .left-btm-main{
+/* .debug .left-btm-main{
     background-color: cyan;
     height: 250px;
-}
+} */
 
-.debug .center-btm-main{
+/* .debug .center-btm-main{
     background-color: darkblue;
     height: 200px;
-}
+} */
 
-.debug .right-btm-main{
+/* .debug .right-btm-main{
     background-color: darkcyan;
     height: 300px;
+} */
+
+.debug .box{
+    border: 1px solid red;
 }
 
 .debug footer{
