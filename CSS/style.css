@@ -66,7 +66,7 @@ main{
     flex-direction: row-reverse;
 }
 
-.box{
+.button{
     background: linear-gradient(#3d3d3d, #1f1f1f);
     color: white;
     display: flex;
@@ -76,7 +76,7 @@ main{
     padding: 5px 10px;
 }
 
-.top-main .box span{
+.top-main .button span{
     padding-left: 10px;
 }
 
@@ -93,8 +93,6 @@ footer{
     height: 500px;
     background-color: royalblue;
 }
-
-
 
 .debug footer{
     background-color: coral;
