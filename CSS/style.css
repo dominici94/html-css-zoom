@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 25px;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+}
+
+.left-header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    width: 4%;
+}
+
+.right-header-container{
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    align-items: center;
+}
+
+.fake-circle{
+    width: 10px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.red{
+    background-color: rgb(255, 95, 88);
+}
+
+.yellow{
+    background-color: rgb(255, 189, 46);
+}
+
+.green{
+    background-color: rgb(39, 202, 66);
+}
+
+.right-header-container span{
+    background-color: white;
+    padding: 2px 4px;
+}
