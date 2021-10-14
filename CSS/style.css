@@ -142,12 +142,12 @@ footer{
     display: flex;
     justify-content: space-between;
     color: white;
+    background-color: rgb(32, 34, 35);
 }
 
 .left-footer{
     width: 15%;
     display: flex;
-    background-color: tomato;
     align-items: center;
     justify-content: space-around;
 }
@@ -155,18 +155,24 @@ footer{
 .main-footer{
     width: 55%;
     display: flex;
-    background-color: turquoise;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .right-footer{
     width: 10%;
-    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 75, 75);
+    color: tomato;
 }
 
 .footer-box{
+    height: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -176,6 +182,10 @@ footer{
 
 .footer-box span{
     font-size: 15px;
+}
+
+#green{
+    color: rgb(75, 200, 0);
 }
 
 /* debug */
@@ -204,6 +214,6 @@ footer{
     border: 1px solid red;
 }
 
-.debug footer{
+/* .debug footer{
     background-color: coral;
-}
+} */
